@@ -112,5 +112,5 @@ $ S \in \{(M_0, M_1, \dots, M_n)\} = \{ \{A_0\}, \{A_1, B_0, B_1, \dots B_{J1}\}
   - Note that every Node $M_i$ has a different number of incoming edges, so every $J_i$ varies per node.
   - The source node $M_0$ is always producing and has no incoming edges, hence A_0 is always 1 and it has no bins.
 
-# $F(x; e_0, s_0) = F_{p}(x)$ defined above
+## $F(x; e_0, s_0) = F_{p}(x)$ defined above
 
