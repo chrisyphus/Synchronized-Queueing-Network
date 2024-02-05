@@ -1,4 +1,4 @@
-# Simulated Queueing Network (SQN) Model
+# Simulated Queueing Network (SQN) Simulator
 
 The Simulated Queueing Network (SQN) Model is a Python-based simulation tool designed to analyze and simulate queueing systems with multiple nodes, bins, and time constraints. This project provides a flexible and customizable framework for studying the behavior and performance of queueing networks in various scenarios.
 
