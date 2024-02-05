@@ -33,6 +33,7 @@ To get started with the SQN Model, follow these steps:
 
 ```python
 # Configure SQN Model parameters
+debug = 0 # Altering this changes depth of information within the print display for state transitions
 NUM_NODES = 5
 NUM_BINS = 3
 MAX_BIN = 10
