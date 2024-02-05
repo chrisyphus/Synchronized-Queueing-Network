@@ -77,7 +77,7 @@ print(estimator.get_conf_interval())
 # **General Semi-Markovian Process (GSMP) Specification of SQN Model**
 
 ## **State Space**
-$ S \in \{(M_0, M_1, \dots, M_n)\} = \{ \{A_0\}, \{A_1, B_0, B_1, \dots B_{J1}\}, \dots \{A_n, B_0, B_1, \dots B_{Jn}\}\} \in \{\{1\}\} \times \{\{0, 1\} \times \{ 0, 1,\dots, U\}_0 \dots \{0, 1,\dots, U\}_{J1}\} \times \dots \{\{0, 1\} \times \{0, 1,\dots, U\}_0 \dots \{0, 1,\dots, U\}_{Jn}\}$
+$S \in \{(M_0, M_1, \dots, M_n)\} = \{ \{A_0\}, \{A_1, B_0, B_1, \dots B_{J1}\}, \dots \{A_n, B_0, B_1, \dots B_{Jn}\}\} \in \{\{1\}\} \times \{\{0, 1\} \times \{ 0, 1,\dots, U\}_0 \dots \{0, 1,\dots, U\}_{J1}\} \times \dots \{\{0, 1\} \times \{0, 1,\dots, U\}_0 \dots \{0, 1,\dots, U\}_{Jn}\}$
 
 - $M_i$ represents a production node with $J$ incoming edges. Its state is $\{A_i, B_0, B_1, \dots B_{Ji}\}$ which represents whether it is actively producing and the number of 'parts' acquired in each bin
   - Each bin corresponds to one of the $J$ incoming edges.
