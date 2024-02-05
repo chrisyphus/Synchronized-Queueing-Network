@@ -1,6 +1,19 @@
 # Simulated Queueing Network (SQN) Simulator
 
-The Simulated Queueing Network (SQN) Model is a Python-based simulation tool designed to analyze and simulate queueing systems with multiple nodes, bins, and time constraints. This project provides a flexible and customizable framework for studying the behavior and performance of queueing networks in various scenarios. The synchronized queueing networks generated are formulated specifications of the General Semi-Markovian Process (GSMP) discrete-event model. The last section of this README describes the exact formulation.
+The Simulated Queueing Network (SQN) Model is a Python-based simulation tool designed to analyze and simulate queueing systems with multiple nodes, bins, and time constraints. One of the most approachable explanations for an SQN is its usage in simulating a factory assembly line, where .... This project provides a flexible and customizable framework for studying the behavior and performance of queueing networks in various scenarios. The synchronized queueing networks generated are formulated specifications of the General Semi-Markovian Process (GSMP) discrete-event model. The last section of this README describes the exact formulation.
+
+## Why use an SQN?
+A myriad of real-world scenarios can be effectively simulated using synchronized queueing networks, ranging from tangible examples like factory production to more abstract instances such as the protein synthesis pathway in Biology. Notably, simulating a factory assembly line stands out as a prominent application. In this context, the SQN Model is invaluable for faithfully replicating and comprehensively studying the intricate dynamics of the production process. Let's delve into how the SQN Model proves its worth in simulating a factory assembly line:
+
+1. **Nodes Represent Production Stations:** Each node in the SQN corresponds to a production station on the assembly line. These nodes actively produce components or products and interact with each other through the flow of items.
+
+2. **Bins Mimic Material Flow:** The bins associated with each node represent the containers or bins that store the produced items. These bins are not only indicators of the production state of a node but also play a crucial role in determining when a production node can start or resume its operation.
+
+3. **Time Constraints and Synchronization:** The SQN introduces time constraints, ensuring a synchronized simulation of the factory assembly line. Time plays a critical role in the production process, and the SQN captures the temporal aspects, enabling the analysis of throughput, delays, and bottlenecks.
+
+This project provides a flexible and customizable framework for studying the behavior and performance of queueing networks, from approachable examples such as the in various scenarios. Whether you're exploring the efficiency of a factory assembly line, analyzing the impact of different configurations, or optimizing resource allocation, the SQN Model empowers you to simulate and evaluate complex systems.
+
+
 
 ## Features
 
