@@ -37,7 +37,6 @@ NUM_NODES = 5
 NUM_BINS = 3
 MAX_BIN = 10
 MAX_TIME = 1000
-OUTMAP = {...}  # Define your output map
 
 # Create SQN Model instance
 sim = SQN_Model(NUM_NODES, NUM_BINS, MAX_BIN, MAX_TIME, OUTMAP)
